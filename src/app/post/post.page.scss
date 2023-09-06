@@ -1,0 +1,17 @@
+.image-with-text {
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+  }
+  
+  .image {
+    width: 100px; /* Tamaño de la imagen */
+    height: 100px; /* Tamaño de la imagen */
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+  }
+  
+  .text {
+    flex: 1; /* Ocupa todo el espacio disponible restante */
+  }
+  
